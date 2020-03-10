@@ -20,8 +20,18 @@ public class PrimerProyecto_FP {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        String cad = "cdm";
+        String cad = "Hello world ";
         System.out.println(cad);
+        imprimirNombre();        
+        //sumar2numeros(1,2);
+        System.out.println(sumar2numeros(1,2));
     }
-    
+     public static void imprimirNombre (){
+         System.out.println("Fundamentos");
+         }
+     
+     public static int sumar2numeros (int num1, int num2){
+         int suma = num1 + num2;
+         return suma;  
+         }
 }
