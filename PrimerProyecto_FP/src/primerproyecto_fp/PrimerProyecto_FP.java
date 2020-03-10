@@ -11,11 +11,17 @@ package primerproyecto_fp;
  */
 public class PrimerProyecto_FP {
 
-    /**
-     * @param args the command line arguments
-     */
+     int a = 0;
+    double d = 0.0;
+    char c = 'c';
+    String str = "hello world";
+    boolean v = false;
+     
+    
     public static void main(String[] args) {
         // TODO code application logic here
+        String cad = "cdm";
+        System.out.println(cad);
     }
     
 }
