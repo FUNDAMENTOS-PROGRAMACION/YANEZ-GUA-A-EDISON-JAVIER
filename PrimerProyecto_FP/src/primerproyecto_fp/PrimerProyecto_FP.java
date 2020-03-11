@@ -27,7 +27,23 @@ public class PrimerProyecto_FP {
         System.out.println(sumar2numeros(1,2));
     }
      public static void imprimirNombre (){
-         System.out.println("Fundamentos");
+         System.out.println("Fundamentos \nProgramacion");
+         System.out.println("Javi\ter");
+         String nm = "Javier";
+         String nm2 = " Javier ";
+         String nm3 = "javier";
+         String nm4 = "JAVIER";
+         String nm5 = "Edison";
+         System.out.println(nm.length());
+         //trim elimina los espacios
+         System.out.println(nm2.trim());
+         System.out.println(nm3.toUpperCase());
+         System.out.println(nm4.toLowerCase());
+          //replace remplaza un caracter o cadena por otra
+         System.out.println(nm4.replace(nm4, nm5));
+         //split divide los caracteres de una cadena
+         System.out.println(nm4.split(" "));
+         //indexOf 
          }
      
      public static int sumar2numeros (int num1, int num2){
